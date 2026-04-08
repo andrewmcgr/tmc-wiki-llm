@@ -1,11 +1,11 @@
 # Private and sensitive content
-4-Private/
-3-Journal/
+4-Private/*
+3-Journal/*
 !4-Private/README.md
 !3-Journal/README.md
 
 # Generated outputs (remove this line if you want to version-control outputs)
-_output/
+_output/*
 !_output/README.md
 
 # Environment and secrets
