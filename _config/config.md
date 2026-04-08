@@ -12,19 +12,19 @@ This file is the brain of your personal knowledge system. Your AI assistant read
 
 <!-- Fill this in. Be specific — the more context you give, the better your AI adapts. -->
 
-**Name:** [Your name]
-**Role:** [Your role — e.g., "Software engineer at a startup", "CIO at a mid-size company", "Freelance designer", "Home cook and recipe collector"]
-**Goals:** [What you want this system to help you with — 2-3 sentences]
-**Context:** [Any additional context about your work, team, tools, industry]
+**Name:** amcgregor
+**Role:** Software engineer
+**Goals:** Build a structured knowledge base on stepper motor driver chips, their software drivers, and motor control theory — as research groundwork for a later project.
+**Context:** Using OhMyOpenCode and Opencode as primary tools, Gemini 3 via GitHub Copilot for content ingestion, and Obsidian + Opencode for browsing. Domain is embedded systems / motion control.
 
 ---
 
 ## System Settings
 
-**Training Start Date:** [YYYY-MM-DD — set this to today when you first start using the system]
+**Training Start Date:** 2026-04-08
 **Training Period Days:** 30
 **Current Phase:** training
-**Preserve Important Sources:** no
+**Preserve Important Sources:** yes
 
 <!-- 
 Phases:
@@ -49,18 +49,19 @@ During training, it will ask once or twice to calibrate your preferences.
 <!-- Don't delete this section — it's your system's memory of what it learned about you. -->
 
 ### Structure Adaptations
-<!-- AI logs structural changes it suggests or makes. Example: -->
-<!-- - 2026-04-10: Created 5-Recipes/ directory — user captures cooking content frequently -->
+<!-- AI logs structural changes it suggests or makes. -->
+- 2026-04-08: Initial setup — domain is stepper motor driver ICs, software drivers, and control theory. Standard 2-Knowledge/ structure with HowTo/Decisions/References should work well for this domain.
 
 ### Preferences Learned
-<!-- AI logs your preferences as it discovers them. Example: -->
-<!-- - 2026-04-08: User prefers short file names without dates in the name -->
-<!-- - 2026-04-12: User wants decisions to include cost analysis -->
+<!-- AI logs your preferences as it discovers them. -->
+- 2026-04-08: User is a software engineer; knowledge base is research for a future project, not operational docs.
+- 2026-04-08: Multi-tool workflow: OhMyOpenCode + Opencode for editing, Gemini 3 (GitHub Copilot) for ingestion, Obsidian for browsing.
 
 ### Directories Added
-<!-- AI logs new directories created based on your needs. Example: -->
-<!-- - 2026-04-10: 5-Recipes/ — user is building a recipe collection -->
-<!-- - 2026-04-15: 6-Reading-Notes/ — user captures book and article notes -->
+<!-- AI logs new directories created based on your needs. -->
+- 2026-04-08: 2-Knowledge/Drivers/ — stepper motor driver IC datasheets and comparisons
+- 2026-04-08: 2-Knowledge/Control-Theory/ — microstepping, current chopping, PID, motion planning
+- 2026-04-08: 2-Knowledge/Software/ — firmware drivers, protocols (SPI, UART, STEP/DIR), libraries
 
 > **Personal context** (small facts about you, key people, preferences) is stored in `_config/context.md`. Your AI populates it during training.
 

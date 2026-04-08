@@ -4,7 +4,7 @@
 **Summary:** Machine-readable personal context for AI sessions - small facts, key people, and preferences that help your AI understand you beyond your role.
 **Tags:** #meta #config
 **Status:** active
-**Updated:** 2026-04-07
+**Updated:** 2026-04-08
 
 ---
 
@@ -12,30 +12,21 @@
 
 ## Personal Details
 
-<!-- Small facts about you that help the AI personalize its responses. Examples: -->
-<!-- - Allergic to peanuts -->
-<!-- - Dog's name: Obi -->
-<!-- - Prefers metric units -->
-<!-- - Native language: Portuguese, works in English -->
+- Software engineer
+- Building a stepper motor research wiki as groundwork for a future project
+- Domain: embedded systems, motion control, stepper motor driver ICs
 
 ## Key People
 
-<!-- People your AI should know about. Examples: -->
-<!-- - Sarah: co-founder, handles product decisions -->
-<!-- - Mike: manager, prefers async communication -->
-<!-- - Dr. Chen: advisor, meets monthly -->
+<!-- People your AI should know about. -->
 
 ## Communication Preferences
 
-<!-- How you like to communicate and how others prefer to be communicated with. Examples: -->
-<!-- - I prefer bullet points over paragraphs -->
-<!-- - Keep emails under 5 sentences -->
-<!-- - Sarah prefers Slack, Mike prefers email -->
+<!-- How you like to communicate. -->
 
 ## Tools & Environment
 
-<!-- Tools, platforms, and environment details that affect how you work. Examples: -->
-<!-- - Primary editor: VS Code -->
-<!-- - Note-taking: Obsidian -->
-<!-- - Calendar: Google Calendar -->
-<!-- - Prefers dark mode -->
+- Primary tooling: OhMyOpenCode, Opencode
+- Ingestion agent: Gemini 3 via GitHub Copilot
+- Browsing: Obsidian and Opencode
+- OS: macOS (darwin)
