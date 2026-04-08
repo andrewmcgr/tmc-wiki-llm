@@ -1,0 +1,52 @@
+# Private and sensitive content
+4-Private/
+3-Journal/
+!4-Private/README.md
+!3-Journal/README.md
+
+# Generated outputs (remove this line if you want to version-control outputs)
+_output/
+!_output/README.md
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Node (if you add rendering later)
+node_modules/
+build/
+dist/
+
+# Python (if you add automation later)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Obsidian (local state - don't commit)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace-override.json
+.obsidian/plugins/
+.obsidian/community-plugins.json
+.obsidian/hotkeys.json
+
+# Generated files
+*.log
+.last-optimization-review
+
+# OS files
+Thumbs.db
+Desktop.ini

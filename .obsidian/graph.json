@@ -1,0 +1,86 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:1-Projects",
+      "color": {
+        "a": 1,
+        "rgb": 3381503
+      }
+    },
+    {
+      "query": "path:2-Knowledge",
+      "color": {
+        "a": 1,
+        "rgb": 3394611
+      }
+    },
+    {
+      "query": "path:3-Journal",
+      "color": {
+        "a": 1,
+        "rgb": 10044620
+      }
+    },
+    {
+      "query": "path:4-Private",
+      "color": {
+        "a": 1,
+        "rgb": 16724787
+      }
+    },
+    {
+      "query": "path:_inbox",
+      "color": {
+        "a": 1,
+        "rgb": 16750899
+      }
+    },
+    {
+      "query": "path:_sources",
+      "color": {
+        "a": 1,
+        "rgb": 11184810
+      }
+    },
+    {
+      "query": "path:_output",
+      "color": {
+        "a": 1,
+        "rgb": 52479
+      }
+    },
+    {
+      "query": "path:_meta OR path:_config",
+      "color": {
+        "a": 1,
+        "rgb": 10066329
+      }
+    },
+    {
+      "query": "path:examples",
+      "color": {
+        "a": 1,
+        "rgb": 16776019
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 1,
+  "collapse-forces": false,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.9722086484415358,
+  "close": true
+}

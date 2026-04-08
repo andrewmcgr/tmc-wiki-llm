@@ -1,0 +1,11 @@
+{
+  "interfaceFontSize": 14,
+  "showLineNumber": true,
+  "strictLineBreaks": true,
+  "readableLineLength": false,
+  "defaultViewMode": "source",
+  "showFrontmatter": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "_inbox",
+  "attachmentFolderPath": "assets"
+}
