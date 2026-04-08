@@ -26,3 +26,4 @@ Append-only log of significant changes to the wiki. Each entry captures what cha
 ## [2026-04-08] reingest | Feedforward compensators rewrite from Docling PDF extraction → 2-Knowledge/Control-Theory/Feedforward-Compensators.md (velocity/accel FF, IMC-based, FB+FF architecture)
 ## [2026-04-08] create | TMC driver comparison page → 2-Knowledge/Drivers/TMC-Driver-Comparison.md (cross-reference of TMC2209, TMC2240, TMC5160A, TMC4671-LA)
 ## [2026-04-08] create | Kalico TMC driver support → 2-Knowledge/Software/Kalico.md (6 TMC drivers, per-driver config, Kalico-specific additions vs. stock Klipper, sensorless homing)
+## [2026-04-08] create | klipper_tmc_autotune → 2-Knowledge/Software/klipper_tmc_autotune.md (physics-based TMC register tuning from motor constants, design decisions, algorithm walkthrough)
