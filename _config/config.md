@@ -161,3 +161,5 @@ training_progress = (today - start) / Training Period Days
 - **Respect the .gitignore** — `4-Private/` and `3-Journal/` are sensitive; don't reference their contents in public outputs
 - **Follow instruction modules** in `_meta/instructions/` — they define specific behaviors for knowledge queries, linting, writing, and definition of done
 - **Load instructions just-in-time** — don't read all instruction modules at startup. Load them only when triggered (see the routing table in `_meta/instructions/general.md`). This keeps context windows small as the wiki grows.
+- **Commit WIKI-LOG.md files** — Always assume files mentioned in `WIKI-LOG.md` should be committed.
+- **Git commit convention** — Maintain the `prefix: description` convention for git commits.
