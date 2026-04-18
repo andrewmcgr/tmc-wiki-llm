@@ -32,7 +32,7 @@ Three files comprise the extension:
 |--------|----------------|---------------|-----------------|--------|
 | [[TMC2209]] | 55 kHz | 16, 24, 32, 40 | 40 | Officially supported |
 | [[TMC2240]] | 20 kHz | 16, 24, 36, 54 | 0 | Officially supported |
-| [[TMC5160A\|TMC5160]] | 20 kHz | 16, 24, 36, 54 | 40 | Officially supported |
+| [[TMC5160A|TMC5160]] | 20 kHz | 16, 24, 36, 54 | 40 | Officially supported |
 | TMC2130 | 55 kHz | 16, 24, 36, 54 | 40 | Code handles, untested |
 | TMC2208 | 55 kHz | 16, 24, 32, 40 | 40 | Code handles, untested |
 | TMC2660 | 20 kHz | 16, 24, 36, 54 | 40 | Code handles, untested |
